@@ -1,0 +1,30 @@
+
+body {
+	background-image: url("https://xmple.com/wallpaper/streaks-stripes-lines-cyan-magenta-yellow-3840x2160-c3-70eae0-eaf76c-db3aed-l3-72-101-142-a-135-f-1.svg");
+}
+
+main {
+	background-color: #222;
+}
+
+.neon {
+	color: black;
+	/* https://stackoverflow.com/questions/4919076/outline-effect-to-text */
+	text-shadow:
+		-1px -1px 0 cyan,
+		1px -1px 0 yellow,
+		-1px 1px 0 yellow,
+		1px 1px 0 magenta;
+}
+
+.theme-c {
+	color: cyan;
+}
+
+.theme-m {
+	color: magenta;
+}
+
+.theme-y {
+	color: yellow;
+}
